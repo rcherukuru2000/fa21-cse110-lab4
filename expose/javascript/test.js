@@ -1,13 +1,13 @@
+function modifyArray(array,callback) {
+    const newArr = [];
+    for(let i = 0; i < array.length; i ++) {
+        newArr.push(callback(array[i]));
+    }
+    return newArr;
+}
+function doSomething(num) {
+    return num * 2;
+}
 
-let student = {
-    name: 'Sarah',
-    major: 'Computer Science',
-    'Grad Year' : '2022' ,
-    greeting: function() {console.log('Hello!');},
-    'Favourite Teacher' : {
-        name: ' Thomas Powell',
-        course: 'CSE 110'
-    },
-    courseLoad: ['CSE 110','CSE 134','VIS 41']
-};
-console.log(student.courseLoad[0]);
+//modifyArray([1,2,3],doSomething);
+console.log(modifyArray([1,2,3],doSomething));
