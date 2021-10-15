@@ -16,3 +16,22 @@
     * c. student.greeting()
     * d. student["Favourite Teacher"].name
     * e. student.courseLoad[0]
+
+13. * A. The output is '32'. The number 2 is converted into a string as we are concatenating an number and string where the final output will be a string. The + means we convert the number to a string.
+    * B. The output is 1.  The string 3 is converted into an number as we are subtracting a string from an number which will give as an number as the final output.
+    * C. The output is 3. The null acts as a zero in this case and has no effect on the addition of the number 3.
+    * D. The output is '3null' of the type string. Here null is converted into a string as we are concatenating with a  string '3'.
+    * E. The output is 4. The 3 remains as an number and the value of true is converted to 1 as true maps to 1. Hence adding 3 and 1 will give us 4.
+    * F. The output is 0. The value of false maps to 0 and as stated in question C null has no effect on the addition and it will act like a 0. Hence 0 + 0 will give us 0.
+    * G. The output is '3undefined'. The undefined is converted into string 'undefined' as we concatenating with a string '3'. When we concatenate with a string the end result will also be a string.
+    * H. The output is NaN. This is because even though the 3 can be converted into an number it can't be subtracted from undefined. For example, 3 - infinity is not computable. The same thing applies here.
+
+14. * A. The output is true. This is because the string '2' becomes a number and since 2 is greater than 1 it is true.
+    * B. The output is false. This is because we are comparing two strings. When we compare two string we compare  letter by letter of each string and decide. Since '2' is not less than '1' we get a false.
+    * C. The output is true. This is because javascript will convert the string to a number when doing the comparision between a number and a string. Since 2 is same as 2 we get true as our result.
+    * D. The output is false. This is because the string 2 and the number 2 belond to different datatypes. Hence the === operator will give us a false.
+    * E. The output is false. The value of true maps to 1 and compares if both are equal. Since 1 is not equal to 2 we get false.
+    * F. The output is true. The datatypes are the same as both the variables are of the type boolean. Boolean(0) maps to false where are Boolean(1 and above) maps to true. Since true === true this will gives us a boolean true.
+
+15. In Javascript '==' is used to compare two variables and it ignore the datatype of the variable. Whereas, the '===' operator is used to compare two variables but also checks if they have the same datatype and as well as the values. For example, 2 == '2' is true because it ignores whether the variables or a string/number and it only checks if the values are the same. In the case of 2 === '2' it checks if both variables are of the same datatype ie; string or number and also checks for the value.
+16. 
