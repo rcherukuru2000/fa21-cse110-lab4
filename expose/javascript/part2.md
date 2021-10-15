@@ -36,3 +36,9 @@
 15. In Javascript '==' is used to compare two variables and it ignore the datatype of the variable. Whereas, the '===' operator is used to compare two variables but also checks if they have the same datatype and as well as the values. For example, 2 == '2' is true because it ignores whether the variables or a string/number and it only checks if the values are the same. In the case of 2 === '2' it checks if both variables are of the same datatype ie; string or number and also checks for the value.
 16. The answer is in [part2-question16.js](part2-question16.js)
 17. The result that is return by the function modifyArray([1,2,3],doSomething) is [2,4,6]. The function modifyArray is called on line 13 and is passed with the arguments mentioned above where doSomething is a function that doubles any number that is passed into the function. We start off by entering the modifyArray function where a newArr is declared  and loop through the function 3 times as the length of the array is 3. Here we call the callback function 3 times and pass in [1,2,3] and push each result returned from doSomething into newArr and return that. Hence doubling [1,2,3] we will get [2,4,6].
+18. The answer is in [part2-question18.js](part2-question18.js)
+19. The output is: 
+   > 1
+   > 4
+   > 3
+   > 2
