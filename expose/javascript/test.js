@@ -1,19 +1,13 @@
 
-function discountPrices (prices,discount) {
-    var discounted = [];
-    var finalPrice = 0;
-
-    for(var i =0; i < prices.length; i++) {
-        var discountedPrice = prices[i] * (1 - discount);
-        finalPrice = Math.round(discountedPrice * 100)/ 100;
-        discounted.push(finalPrice);
-    }
-
-    //console.log(i);
-    //console.log(discountedPrice);
-    console.log(finalPrice);
-
-    return discounted;
-}
-
-discountPrices([100,200,300],0.5);
+let student = {
+    name: 'Sarah',
+    major: 'Computer Science',
+    'Grad Year' : '2022' ,
+    greeting: function() {console.log('Hello!');},
+    'Favourite Teacher' : {
+        name: ' Thomas Powell',
+        course: 'CSE 110'
+    },
+    courseLoad: ['CSE 110','CSE 134','VIS 41']
+};
+console.log(student.courseLoad[0]);
